@@ -1,0 +1,18 @@
+version: '3.5'
+
+services:
+  vision-nuxt:
+    build: ./
+    restart: always
+    container_name: vision-nuxt
+    volumes:
+        - .:/web
+    environment:
+        HOST: 0.0.0.0
+    networks:
+        - ndb_net
+
+networks:
+  ndb_net:
+    external:
+      name: ndb_net

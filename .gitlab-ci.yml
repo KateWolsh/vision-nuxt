@@ -1,0 +1,12 @@
+stages:
+  - deploy
+
+deploy:
+  stage: deploy
+  only:
+    - master
+  tags:
+    - vision
+  script:
+    - rsync -r ./ /home/server/projects/vision-nuxt
+    - docker-compose -f /home/server/projects/vision-nuxt/docker-compose.yml build && docker-compose -f /home/server/projects/vision-nuxt/docker-compose.yml up -d

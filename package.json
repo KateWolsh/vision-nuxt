@@ -1,0 +1,34 @@
+{
+  "name": "vision-nuxt",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/style-resources": "^1.0.0",
+    "@nuxtjs/yandex-metrika": "^1.4.0",
+    "cookie-universal-nuxt": "^2.1.5",
+    "core-js": "^3.19.3",
+    "hooper": "^0.3.4",
+    "node-sass": "^6.0.0",
+    "nuxt": "^2.17.1",
+    "nuxt-custom-headers": "^2.1.0",
+    "one-colorpicker": "^1.0.12",
+    "sass-loader": "^10",
+    "v-mask": "^2.3.0",
+    "v-show-slide": "^1.8.3",
+    "vue": "^2.6.14",
+    "vue-html2pdf": "^1.8.0",
+    "vue-marquee-text-component": "^1.2.0",
+    "vue-number-animation": "^1.1.1",
+    "vue-observe-visibility": "^1.0.0",
+    "vue-server-renderer": "^2.6.14",
+    "vue-template-compiler": "^2.6.14",
+    "vuejs-noty": "^0.1.3",
+    "webpack": "^4.46.0"
+  }
+}
